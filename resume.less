@@ -1,11 +1,6 @@
 @import 'font-awesome-ie7';
 @import 'font-awesome';
 
-@font-face{
-  font-family: 'Futura Medium Condensed';
-  src: url('futura.ttf');
-}
-
 *{
   margin: 0px;
   padding: 0px;
@@ -17,7 +12,9 @@ html,body{
 }
 
 body {
-  font-family: 'Futura Medium Condensed';
+  font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 150%;
   margin-bottom: 25px;
 
   /* Large desktop */
@@ -37,8 +34,7 @@ body {
     }
     #body{
       padding-top: 15px;
-      width:750px;
-      // height:100%;
+      width:700px;
     }
   }
 
@@ -58,8 +54,7 @@ body {
     }
     #body{
       padding-top: 15px;
-      width:560px;
-      height: 100%;
+      width:500px;
     }
   }
 
@@ -97,6 +92,8 @@ body {
   }
 }
 
+@sub-color: #777;
+
 #container{
   margin: auto;
   width: 50%;
@@ -113,13 +110,13 @@ body {
     padding-top: 5px;
 
     li{
-      color: #888;
+      color: @sub-color;
     }
 
     #programming-langs{
       width: 80%;
       margin: auto;
-      color: #888;
+      color: @sub-color;
 
       .lang{
         width: 100px;
