@@ -1,0 +1,42 @@
+html, h1, h4 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.social-icon {
+  font-size: 40px;
+  color: #333;
+  margin:0 5px;
+}
+
+.social-icon:hover {
+  text-decoration: none;
+  color: #0ae;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bottom-rule {
+  border-bottom: 1px solid #0ae;
+  width: 40%;
+}
+
+.lowlight {
+  color: #555;
+}
